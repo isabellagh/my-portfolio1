@@ -1,3 +1,5 @@
+import React from "react";
+import "./home.css";
 import Navbar from "../header/Navbar";
 import Body from "../body/body";
 import Footer from "../footer/footer";
