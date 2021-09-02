@@ -7,16 +7,16 @@ function Pc() {
     <div className="pc">
       <div className="pc-option">
         <Link to="/project">
-          <i className="bi bi-clipboard-data">Projects</i>
+          <i className="bi bi-clipboard-data option-icon">Projects </i>
         </Link>
         <Link to="/skills">
-          <i className="bi bi-laptop">Skills</i>
+          <i className="bi bi-laptop option-icon">Skills </i>
         </Link>
         <Link to="/work">
-          <i className="bi bi-briefcase">Work</i>
+          <i className="bi bi-briefcase option-icon">Work </i>
         </Link>
-        <Link to="/Contact">
-          <i className="bi bi-person">Contact</i>
+        <Link to="/contact">
+          <i className="bi bi-person option-icon">Contact</i>
         </Link>
       </div>
     </div>
