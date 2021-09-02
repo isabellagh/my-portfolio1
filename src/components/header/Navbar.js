@@ -16,7 +16,9 @@ function Navbar() {
           <div onClick={() => setIsOpen(!isOpen)}>
             <i className="bi bi-list menu-icon"></i>
           </div>
-          <div>{isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}</div>
+          <div>
+            {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
+          </div>
         </div>
       </div>
     </div>
