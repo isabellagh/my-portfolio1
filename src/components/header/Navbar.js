@@ -13,7 +13,7 @@ function Navbar() {
           <Pc />
         </div>
         <div className="mobile-menu">
-          <div>
+          <div onClick={() => setIsOpen(!isOpen)}>
             <i className="bi bi-list"></i>
           </div>
           <div>{isOpen && <Mobile />}</div>
