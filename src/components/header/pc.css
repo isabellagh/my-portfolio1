@@ -13,13 +13,13 @@
 .pc-option a {
     text-decoration: none;
     color: black;
-    /* display: flex; */
+    display: flex;
     align-items: center;
 }
 
 .option-icon {
     margin-right: 6px;
-    /* display: flex; */
+    display: flex;
     align-items: center;
 }
 

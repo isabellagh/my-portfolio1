@@ -9,12 +9,18 @@ function Pc() {
         <Link to="/project">
           <i className="bi bi-clipboard-data option-icon">Projects </i>
         </Link>
+      </div>
+      <div className="pc-option">
         <Link to="/skills">
           <i className="bi bi-laptop option-icon">Skills </i>
         </Link>
+      </div>
+      <div className="pc-option">
         <Link to="/work">
           <i className="bi bi-briefcase option-icon">Work </i>
         </Link>
+      </div>
+      <div className="pc-option">
         <Link to="/contact">
           <i className="bi bi-person option-icon">Contact</i>
         </Link>
