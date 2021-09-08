@@ -9,7 +9,6 @@ import Contact from "./contact/contact";
 function Body() {
   return (
     <div className="body">
-    <hr />
     <section>
       <About />
     </section>
