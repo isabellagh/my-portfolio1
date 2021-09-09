@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Contact from './contact'
 
 function about() {
   return (
@@ -24,7 +25,7 @@ function about() {
         </p>
       </div>
       <div className="about-bottom">
-        <div className="contact"></div>
+        <Contact />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-const ContactData = [
+export const ContactData = [
     {
         platform:"Github",
         link:"https://github.com/isabellagh",
@@ -21,4 +21,4 @@ const ContactData = [
     },
 ]
 
-export default ContactData
+
