@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return (
     <div className="footer">
-      <h1>Footer</h1>
+      <p>Website design by Isabella Henriques <br/> Coded by Isabella Henriques</p>
     </div>
   );
 }
