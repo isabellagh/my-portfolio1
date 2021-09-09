@@ -11,10 +11,11 @@ function about() {
           alt=""
         />
       </div>
+      <br />
       <div className="about-info">
         <p>
-          Hello, I am
-          <br /> <span>Isabella Henriques.</span>
+          Hello, World!
+          <br /> <span>I am, Isabella Henriques, Software Engineer.</span>
           <br /> I'm looking for something new, more challenging, changing my
           career to Software Engineering was not easy, but definitely pleasant.
           I love staying alone with my computer just envisioning, creating my
