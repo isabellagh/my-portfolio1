@@ -1,4 +1,5 @@
 .about {
+  padding-top: 48px;
   padding-bottom: 48px;
 }
 
@@ -16,4 +17,10 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.about-info {
+  /* text-align: justify;
+  text-justify: inter-word; */
+  text-align: center;
 }
