@@ -1,9 +1,10 @@
 import React from 'react'
+import './projects.css'
 
 function projects() {
     return (
-        <div>
-            <h5>projects</h5>
+        <div className="projects">
+            <label>Projects</label>
         </div>
     )
 }
