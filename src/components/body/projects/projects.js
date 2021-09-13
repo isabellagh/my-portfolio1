@@ -1,16 +1,16 @@
 import React from "react";
 import "./projects.css";
 import { ProjectData } from "../projects/ProjectsData";
-import ProjectInfo from "./ProjectInfo";
+import ProjectSection from "./ProjectSection";
 
 function projects() {
   const data = ProjectData;
   return (
     <div className="projects">
-      <label>Projects</label>
+      <label className="section-header">Projects</label>
       <div>
           {data.map((project) => {
-              return <ProjectInfo />
+              return <ProjectSection project={project}/>
           })}
       </div>
     </div>

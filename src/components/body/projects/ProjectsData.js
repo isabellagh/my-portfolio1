@@ -2,7 +2,7 @@ export const ProjectData = [
     {
         id: 1,
         title: "Soccer Star",
-        about: "Aplace where you can add your favorite players and rate them. ",
+        about: "Aplace where you can add your favorite soccer players and rate them. ",
         tags: "Ruby, Ruby on Rails",
         demo: "",
         github: "https://github.com/isabellagh/soccer_star",
