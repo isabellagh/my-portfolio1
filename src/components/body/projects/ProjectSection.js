@@ -6,7 +6,6 @@ function ProjectSection({ project }) {
     <div className="project-section">
       <div className="project-info">
         <label className="project-title">{project.title}</label>
-        <div className="project-about">{project.about}</div>
         <div className="project-links">
           {project.github && (
             <a className="project-link" href={project.github}>
@@ -16,7 +15,14 @@ function ProjectSection({ project }) {
             </a>
           )}
         </div>
+        <p className="project-about">{project.about}</p>
+        <div className="project-tags">
+          {project.tags.map((tag) => {
+            return <label>{tag}</label>
+          })}
+        </div>
       </div>
+
       <img src={project.image} className="project-image" alt="" />
     </div>
   );
