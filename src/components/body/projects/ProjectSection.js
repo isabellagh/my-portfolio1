@@ -18,7 +18,7 @@ function ProjectSection({ project }) {
         <p className="project-about">{project.about}</p>
         <div className="project-tags">
           {project.tags.map((tag) => {
-            return <label>{tag}</label>
+            return <label className="tag">{tag}</label>
           })}
         </div>
       </div>

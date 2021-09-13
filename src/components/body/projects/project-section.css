@@ -20,5 +20,17 @@
     font-weight: 600;
 }
 
+.project-tags {
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
 
+.tag {
+    padding: 4px 8px;
+    background-color: lightgray;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
 
