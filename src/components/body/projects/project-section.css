@@ -34,3 +34,7 @@
     margin-bottom: 4px;
 }
 
+.project-links a {
+    text-decoration: none;
+    color: black;
+}
