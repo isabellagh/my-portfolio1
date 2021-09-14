@@ -13,7 +13,7 @@ export const ProjectData = [
         id: 2,
         title: "TCC",
         about: "A daycare organizer",
-        tags: ["Vanilla JavavaScript"],
+        tags: ["Vanilla JavaScript"],
         demo: "",
         github: "https://github.com/isabellagh/tcc_backend",
         image: "https://images.pexels.com/photos/159579/crayons-coloring-book-coloring-book-159579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -29,13 +29,13 @@ export const ProjectData = [
         image: "https://images.pexels.com/photos/5327449/pexels-photo-5327449.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
 
-    {
-        id: 4,
-        title: "",
-        about: "",
-        tags: [""],
-        demo: "",
-        github: "",
-        image: ""
-    },
+    // {
+    //     id: 4,
+    //     title: "",
+    //     about: "",
+    //     tags: [""],
+    //     demo: "",
+    //     github: "",
+    //     image: ""
+    // },
 ]
