@@ -33,7 +33,7 @@
 
 .tag {
     padding: 4px 8px;
-    background-color: lightgray;
+    background-color: rgb(212, 233, 217);
     border-radius: 4px;
     margin-right: 6px;
     margin-bottom: 4px;
@@ -42,4 +42,17 @@
 .project-links a {
     text-decoration: none;
     color: black;
+}
+
+.project-links {
+    margin-top: 6px;
+    display: flex;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 241, 205);
+    width: max-content;
 }
