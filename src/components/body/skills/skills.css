@@ -1,0 +1,19 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: flex-start;
+  margin: 12px 0px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 720px) {
+  .skills-section {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
