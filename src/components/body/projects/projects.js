@@ -7,7 +7,7 @@ function projects() {
   const data = ProjectData;
   return (
     <div className="projects">
-      <label className="section-header">Projects</label>
+      <h1 className="section-header">Projects</h1>
       <div>
           {data.map((project) => {
               return <ProjectSection project={project}/>
