@@ -9,6 +9,7 @@
   justify-content: flex-start;
   margin: 12px 0px;
   flex-wrap: wrap;
+  background-color: rgb(238, 245, 228);
 }
 
 @media only screen and (max-width: 720px) {
