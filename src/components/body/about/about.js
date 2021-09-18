@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Contact from './contact'
+import Contact from "./contact";
 
 function about() {
   return (
@@ -25,6 +25,15 @@ function about() {
         </p>
       </div>
       <div className="about-bottom">
+      <br />
+        <h5>Education</h5>
+        <ul>
+          <li>Software Engineering</li>
+          <p>Flatiron School</p>
+          <li>Bachelor in Physical Education</li>
+          <p>Veiga de Almeida University</p>
+        </ul>
+        <br />
         <Contact />
       </div>
     </div>

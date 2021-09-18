@@ -3,7 +3,7 @@ import './body.css'
 import About from "./about/about";
 import Projects from "./projects/projects";
 import Skills from "./skills/skills";
-import Work from "./work/work";
+import Experience from "./experience/experience";
 import Contact from "./contact/contact";
 
 function Body() {
@@ -19,7 +19,7 @@ function Body() {
       <Skills />
     </section>
     <section>
-      <Work />
+      <Experience />
     </section>
     <section>
       <Contact />
