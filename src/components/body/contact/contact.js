@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import Contact from "../about/contact";
+import "./contact.css";
 
 function contact() {
-    return (
-        <div>
-            <h5>contact</h5>
-        </div>
-    )
+  return (
+    <div className="contact-me">
+      <h1>Contact</h1>
+      <div className="contact-media">
+        <Contact />
+      </div>
+    </div>
+  );
 }
 
-export default contact
+export default contact;

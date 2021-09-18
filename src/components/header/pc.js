@@ -15,11 +15,11 @@ function Pc() {
           <i className="bi bi-laptop option-icon">Skills </i>
         </Link>
       </div>
-      <div className="pc-option">
+      {/* <div className="pc-option">
         <Link to="/work">
           <i className="bi bi-briefcase option-icon">Work </i>
         </Link>
-      </div>
+      </div> */}
       <div className="pc-option">
         <Link to="/contact">
           <i className="bi bi-person option-icon">Contact</i>

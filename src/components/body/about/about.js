@@ -16,7 +16,7 @@ function about() {
       <div className="about-info">
         <p>
           Hello, World!
-          <br /> <span>I am Isabella Henriques, Software Engineer.</span>
+          <br /> <span>I am Isabella Henriques, recently graduated as Software Engineer.</span>
           <br /> I'm looking for something new, more challenging, changing my
           career to Software Engineering was not easy, but definitely pleasant.
           I love staying alone with my computer just envisioning, creating my
@@ -34,8 +34,10 @@ function about() {
           <p>Veiga de Almeida University</p>
         </ul>
         <br />
-        <Contact />
       </div>
+      <di>
+        <Contact />
+      </di>
     </div>
   );
 }
