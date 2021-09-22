@@ -1,6 +1,6 @@
 .project-container {
     background-color: rgb(238, 245, 228);
-    padding: 0px 8px;
+    padding: 0px 8px; 
 }
 
 .project-section {
@@ -10,6 +10,7 @@
     align-items: center;
     margin: 16px 0px;
     /* padding: 8px 0px; */
+   
 }
 
 .project-image {
