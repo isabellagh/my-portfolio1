@@ -2,12 +2,17 @@ import React, { useState } from "react";
 import "./navbar.css";
 import Pc from "./pc";
 import Mobile from "./mobile";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="navbar">
-      <div className="logo">Isabella Henriques</div>
+      <div className="logo">
+        <Link to="/">
+          Isabella Henriques
+        </Link>
+      </div>
       <div className="menu">
         <div className="pc-menu">
           <Pc />

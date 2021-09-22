@@ -32,6 +32,11 @@
   font-weight: 800;
 }
 
+.logo a {
+  text-decoration: none;
+  color: green;
+}
+
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
