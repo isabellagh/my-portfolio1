@@ -24,7 +24,6 @@ function Body() {
     <section>
       <Contact />
     </section>
-    <hr />
     </div>
   );
 }
