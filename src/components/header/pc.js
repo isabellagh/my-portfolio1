@@ -1,29 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./pc.css";
 
 function Pc() {
   return (
     <div className="pc">
       <div className="pc-option" id="project">
-        <Link to="/project">
+        <NavLink to="/projects" className="projects" activeClassName="projects-active">
           <i className="bi bi-clipboard-data option-icon">Projects </i>
-        </Link>
+        </NavLink>
       </div>
       <div className="pc-option" id="skills">
-        <Link to="/skills">
+        <NavLink to="/skills">
           <i className="bi bi-laptop option-icon">Skills </i>
-        </Link>
+        </NavLink>
       </div>
       {/* <div className="pc-option" id="work">
-        <Link to="/work">
+        <NavLink to="/work">
           <i className="bi bi-briefcase option-icon">Work </i>
-        </Link>
+        </NavLink>
       </div> */}
       <div className="pc-option" id="contact">
-        <Link to="/contact">
+        <NavLink to="/contact">
           <i className="bi bi-person option-icon">Contact</i>
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

@@ -13,10 +13,10 @@ function Body() {
       <About />
     </section>
     <section className="section">
-      <Projects />
+      <Skills />
     </section>
     <section className="section">
-      <Skills />
+      <Projects />
     </section>
     {/* <section className="section">
       <Experience />
