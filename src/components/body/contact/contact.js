@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../about/contact";
-import "./contact.css";
+import "./contact.scss";
 
 function contact() {
   return (
